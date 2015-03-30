@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EFFY - Easy Food For You</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_categories">CategoriesActivity</string>
+    <string name="title_activity_favorites">FavoritesActivity</string>
+    <string name="title_activity_panini">PaniniActivity</string>
+    <string name="title_activity_wrap">WrapActivity</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="title_activity_list_panini">ListPaniniActivity</string>
+    <string name="title_activity_list_sub">ListSubActivity</string>
+    <string name="title_activity_list_wrap">ListWrapActivity</string>
+    <string name="title_activity_recipe_list_dynamic">RecipeListDynamicActivity</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="title_activity_recipe_dynamic">RecipeDynamicActivity</string>
+
+</resources>

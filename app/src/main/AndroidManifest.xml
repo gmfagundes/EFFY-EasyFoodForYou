@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gmfagundes.effy_easyfoodforyou" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".EFFYActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CategoriesActivity"
+            android:label="@string/title_activity_categories" >
+        </activity>
+        <activity
+            android:name=".FavoritesActivity"
+            android:label="@string/title_activity_favorites" >
+        </activity>
+        <activity
+            android:name=".PaniniActivity"
+            android:label="@string/title_activity_panini" >
+        </activity>
+        <activity
+            android:name=".WrapActivity"
+            android:label="@string/title_activity_wrap" >
+        </activity>
+        <activity
+            android:name=".SubActivity"
+            android:label="@string/title_activity_sub" >
+        </activity>
+        <activity
+            android:name=".ListPaniniActivity"
+            android:label="@string/title_activity_list_panini" >
+        </activity>
+        <activity
+            android:name=".ListSubActivity"
+            android:label="@string/title_activity_list_sub" >
+        </activity>
+        <activity
+            android:name=".ListWrapActivity"
+            android:label="@string/title_activity_list_wrap" >
+        </activity>
+        <activity
+            android:name=".RecipeListDynamicActivity"
+            android:label="@string/title_activity_recipe_list_dynamic" >
+        </activity>
+        <activity
+            android:name=".RecipeActivity"
+            android:label="@string/title_activity_recipe" >
+        </activity>
+        <activity
+            android:name=".RecipeDynamicActivity"
+            android:label="@string/title_activity_recipe_dynamic" >
+        </activity>
+    </application>
+
+</manifest>
